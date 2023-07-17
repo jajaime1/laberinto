@@ -1,0 +1,468 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689315307291918, "dur":1192, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315307293145, "dur":76, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689315307293244, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689315307293263, "dur":562, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689315307293859, "dur":880, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315307294739, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308183856, "dur":467, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184324, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184337, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184339, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184346, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184349, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184355, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184357, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184363, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184365, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184370, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184371, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184377, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184379, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184384, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184386, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184392, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184394, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184400, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184402, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184409, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184411, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184416, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184418, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184426, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184447, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308184476, "dur":1678, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689315307293971, "dur":801, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307294772, "dur":5217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307300003, "dur":17032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689315307317039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307317058, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1689315307320580, "dur":76928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307397514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307397525, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307399674, "dur":164909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307564587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307564597, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307567082, "dur":27641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307594728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307594738, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307601178, "dur":44387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307645571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307645584, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307646900, "dur":279224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307926129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307926138, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689315307929210, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689315307929259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307929267, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689315307930792, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689315307930840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307930848, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1689315307932030, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1689315307932104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307932114, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1689315307933312, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689315307933361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689315307933369, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1689315307934474, "dur":249380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307293910, "dur":843, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307294757, "dur":5228, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307300005, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689315307300011, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307300234, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689315307300241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307309310, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689315307310754, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689315307310913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307310923, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689315307313259, "dur":16163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307329428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307329846, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307331384, "dur":52962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307384353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307384365, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307385882, "dur":79602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307465491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307465503, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307466745, "dur":55931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307522680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307522689, "dur":14064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307536809, "dur":22716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307559529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307559564, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307561335, "dur":65296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307626637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307626648, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307627921, "dur":95602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307723529, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307723543, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307724867, "dur":101934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307826808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307826819, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307828149, "dur":159465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307987620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689315307987631, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689315307989412, "dur":194451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307293957, "dur":806, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307294763, "dur":5237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307300006, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689315307300246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307309688, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1689315307311452, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1689315307311594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307311604, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1689315307314437, "dur":208825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307523266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307523273, "dur":18565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307541895, "dur":45708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307587607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307587615, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307590050, "dur":47721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307637778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307637789, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307639097, "dur":288605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307927729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307927739, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689315307930448, "dur":7925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689315307938379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689315307938390, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689315307939766, "dur":244087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307294020, "dur":765, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307294785, "dur":5202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307300006, "dur":33651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689315307333662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307333918, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689315307334938, "dur":26976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307361920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307361943, "dur":8360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307370349, "dur":19870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307390300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307390312, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307393151, "dur":20816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307413972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307413983, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307418174, "dur":52259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307470438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307470447, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307474693, "dur":21514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307496212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307496224, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307497552, "dur":22729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307520287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307520298, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307521639, "dur":30694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307552340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307552352, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307555648, "dur":24804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307580458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307580469, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307582074, "dur":25153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307607233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307607245, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307608755, "dur":29697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307638459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307638469, "dur":7378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307645894, "dur":137679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307783579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315307783590, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315307784840, "dur":220028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315308004874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689315308004885, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689315308007140, "dur":176721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307294076, "dur":724, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307294801, "dur":5191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307300004, "dur":15711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689315307315719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307315739, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689315307316913, "dur":41975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto.exe" }}
+,{ "pid":12345, "tid":5, "ts":1689315307358894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307358903, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto.exe" }}
+,{ "pid":12345, "tid":5, "ts":1689315307360428, "dur":23956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307384390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307384401, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307386674, "dur":21476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307408156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307408167, "dur":10979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307419191, "dur":50127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307469324, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307469365, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307470975, "dur":32821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307503802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307503815, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307505966, "dur":57037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307563009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307563021, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307564419, "dur":37789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307602213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307602224, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307603581, "dur":82543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307686131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307686142, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307687391, "dur":107487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307794883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307794894, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307796012, "dur":75682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307871725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307871738, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307873677, "dur":124050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307997733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689315307997745, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689315307999033, "dur":184850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307294132, "dur":682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307294814, "dur":5174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307300004, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1689315307300237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307308192, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1689315307310928, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1689315307311093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307311102, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1689315307313369, "dur":102771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307416146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307416275, "dur":8398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307424810, "dur":126187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307551002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307551014, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307554549, "dur":32502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307587059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307587071, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307589952, "dur":37406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307627363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307627372, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307628909, "dur":148129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307777044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315307777055, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315307778298, "dur":268140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315308046444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689315308046455, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689315308047765, "dur":136122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307294194, "dur":630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307294824, "dur":5204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307300029, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1689315307300231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307301970, "dur":3615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1689315307305633, "dur":12196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1689315307317833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307317842, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1689315307318967, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1689315307319108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307319438, "dur":25669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1689315307345158, "dur":40158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307385321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307385332, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307387150, "dur":95341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307482497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307482585, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307483825, "dur":21267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307505096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307505118, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307507093, "dur":33399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307540499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307540512, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307541982, "dur":112933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307654921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307654934, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307656198, "dur":79061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307735265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307735276, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307736414, "dur":141821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307878241, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315307878254, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315307879605, "dur":301109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315308180719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689315308180728, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689315308183813, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1689315308183815, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307294248, "dur":585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307294833, "dur":5158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307300005, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1689315307300554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307318866, "dur":8363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1689315307327279, "dur":32651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307359935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307360022, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307362535, "dur":27590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307390131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307390144, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307393332, "dur":52710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307446048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307446059, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307447680, "dur":21977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307469661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307469670, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307472977, "dur":21047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307494030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307494042, "dur":1146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307495234, "dur":19836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307515076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307515089, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307516550, "dur":42971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307559527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307559538, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307561225, "dur":29659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307590916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307590929, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307592298, "dur":19877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307612182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307612194, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307613389, "dur":95245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307708639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307708650, "dur":7643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307716347, "dur":163088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307879441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315307879452, "dur":19257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315307898753, "dur":227917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315308126676, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689315308126715, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689315308127883, "dur":55985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307294309, "dur":532, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307294841, "dur":5157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307300005, "dur":17226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1689315307317235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307317254, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1689315307321442, "dur":25869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307347357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307347705, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307349248, "dur":25945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307375200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307375211, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307376433, "dur":22340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307398778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307398790, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307400398, "dur":186928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307587332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307587342, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307589929, "dur":22261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307612222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307612232, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307613398, "dur":125991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307739395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307739406, "dur":8327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307747777, "dur":129198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307876981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307876992, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307878311, "dur":49195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307927511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307927523, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1689315307929098, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1689315307929205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1689315307929264, "dur":6502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1689315307935818, "dur":248041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307294356, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307294848, "dur":5145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307300006, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1689315307300840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307302072, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1689315307305300, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1689315307305453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307305979, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1689315307307373, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1689315307307517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307307589, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1689315307309578, "dur":10753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1689315307320342, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307320398, "dur":7487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1689315307327928, "dur":52953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307380887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307380926, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307382193, "dur":21540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307403740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307403752, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307405325, "dur":21556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307426886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307426898, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307428029, "dur":48039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307476073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307476082, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307477485, "dur":44552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307522042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307522052, "dur":8202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307530310, "dur":29433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307559750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307559762, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307561624, "dur":26821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307588450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307588460, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307590190, "dur":35886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307626083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307626095, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307627495, "dur":115777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307743278, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307743291, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307744734, "dur":41352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307786091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307786101, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307787393, "dur":192952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307980351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1689315307980388, "dur":2241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1689315307982671, "dur":201220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307294400, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307294857, "dur":5139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307300003, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1689315307300232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307320904, "dur":8961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1689315307329921, "dur":61616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307391570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307391580, "dur":7968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307399595, "dur":68015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307467615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307467626, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307468769, "dur":40902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307509677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307509690, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307512365, "dur":57795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307570167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307570179, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307571677, "dur":21352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307593035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307593046, "dur":8222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307601318, "dur":170403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307771728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307771741, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307773071, "dur":69894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307842971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307842983, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307844076, "dur":137496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307981578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1689315307981590, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1689315307983028, "dur":200839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307294462, "dur":403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307294865, "dur":5138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307300003, "dur":13740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1689315307313747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307313772, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1689315307314985, "dur":35875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1689315307350866, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307350876, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1689315307355172, "dur":120214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307475391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307475401, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307476919, "dur":27281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307504204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307504212, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307505782, "dur":42865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307548654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307548666, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307549918, "dur":22575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307572499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307572537, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307573998, "dur":126180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307700183, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307700195, "dur":3975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307704216, "dur":221503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307925724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307925736, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307927323, "dur":1471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307928801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307928813, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1689315307930168, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1689315307930420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307930427, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1689315307932593, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1689315307932649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307932656, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1689315307934458, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1689315307934595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1689315307934603, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/nacho/OneDrive/Documentos/Titulo I/Laberinto FPS FIX/Laberinto_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1689315307935742, "dur":248114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689315308187673, "dur":2150, "ph":"X", "name": "ProfilerWriteOutput" }
+,
